@@ -1,16 +1,16 @@
-import Counter from './components/Counter';
+import App from './components/App';
 
 const routes = [
   {
-    component: Counter,
+    component: App,
     routes: [
-      {
-        component: Counter,
-        path: '/',
-        exact: true,
-      }
-    ],
-  },
+      //   {
+      //     component: Counter,
+      //     path: '/',
+      //     exact: true,
+      //   }
+    ]
+  }
 ];
 
 export default routes;
